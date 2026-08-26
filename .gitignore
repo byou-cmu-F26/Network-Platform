@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+._*
+
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Java / Maven build output
+target/
+*/target/
+
+# Logs
+*.log
+logs/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+application*.yml
+application*.yaml
+application-local.yml
+application-local.yaml
+application-dev-local.yml
+application-dev-local.yaml
+
+# Runtime / temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS / editor extras
+Thumbs.db
+.vscode/
